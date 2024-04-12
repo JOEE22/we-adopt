@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>We.adopt</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="main2.js" defer></script>
+
+</head>
+
+
+<body>
+
+
+    <header>
+        <a href="Weadopt.html" class="logo"><i class="fas fa-infinity"></i>We.Adopt</a>
+        <nav class="navbar">
+             <a href="Weadopt.html">Home</a>
+             <a href="adopt.html">Adopt</a>
+             <a href="contact.html">Contact</a>
+             
+        </nav>
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="login.html" class='fas fa-user'></a>
+        </div>
+    </header>
+
+    <form id="petForm">
+      <label for="petName">Pet Name:</label>
+      <input type="text" id="petName" name="petName" required><br>
+      <label for="petImage">Image URL:</label>
+      <input type="text" id="petImage" name="petImage" required><br>
+      <div class="formbutton">
+      <button type="submit" id="addPetButton">Add / Update Pet</button>
+      <button type="button" id="deletePetButton">Delete Selected Pet</button>
+      </div>
+  </form>
+
+    <section class="petss">
+        
+        <div class="box-container">
+    
+
+                <h3 class="title"> search your buddy </h3>
+             
+                <div class="pets-container">
+             
+                   <div class="pet" data-name="p-1">
+                      <img src="dogs/dogo1.webp" alt="">
+                      <h3>MAX</h3>
+      
+                   </div>
+             
+                   <div class="pet" data-name="p-2">
+                      <img src="dogs/dogo2.jpeg" alt="">
+                      <h3>ROCKY</h3>
+      
+                   </div>
+             
+                   <div class="pet" data-name="p-3">
+                      <img src="dogs/dogo8.webp" alt="">
+                      <h3>BELLA</h3>
+      
+                   </div>
+             
+                   <div class="pet" data-name="p-4">
+                     <img src="cats/cat1.jpeg" alt="">
+                     <h3>OLIVER</h3>
+   
+                   </div>
+
+                   <div class="pet" data-name="p-5">
+                     <img src="cats/cat2.jpg" alt="">
+                     <h3>SIMBA</h3>
+   
+                   </div>
+
+                   <div class="pet" data-name="p-6">
+                     <img src="cats/cat3.jpeg" alt="">
+                     <h3>WHISKERS</h3>
+   
+                   </div>
+
+                   <div class="pet" data-name="p-7">
+                      <img src="dogs/dogo4.webp" alt="">
+                      <h3>LUNA</h3>
+      
+                   </div>
+             
+                   <div class="pet" data-name="p-8">
+                      <img src="dogs/dogo6.jpg" alt="">
+                      <h3>DUKE</h3>
+      
+                   </div>
+             
+                   <div class="pet" data-name="p-9">
+                      <img src="dogs/dogo5.jpg" alt="">
+                      <h3>DAISY</h3>
+      
+                   </div>
+
+                   <div class="pet" data-name="p-10">
+                      <img src="cats/cat4.jpg" alt="">
+                      <h3>LEO</h3>
+      
+                   </div>
+
+                   <div class="pet" data-name="p-11">
+                      <img src="cats/cat5.png" alt="">
+                      <h3>OSCAR</h3>
+      
+                   </div>
+
+                   <div class="pet" data-name="p-12">
+                     <img src="cats/cat6.jpg" alt="">
+                     <h3>CHLOE</h3>
+   
+                   </div>
+
+                   <div class="pet" data-name="p-13">
+                     <img src="dogs/dogo10.jpeg" alt="">
+                     <h3>LUCY</h3>
+   
+                  </div>
+
+                  <div class="pet" data-name="p-14">
+                     <img src="dogs/dogo9.jpg" alt="">
+                     <h3>BAILEY</h3>
+   
+                  </div>
+
+                  <div class="pet" data-name="p-15">
+                     <img src="dogs/dogo7.jpeg" alt="">
+                     <h3>SADIE</h3>
+   
+                  </div>
+
+                  <div class="pet" data-name="p-16">
+                     <img src="cats/cat7.jpg" alt="">
+                     <h3>MILO</h3>
+   
+                  </div>
+
+                  <div class="pet" data-name="p-17">
+                     <img src="cats/cat8.jpg" alt="">
+                     <h3>SOPHIE</h3>
+   
+                  </div>
+
+                  <div class="pet" data-name="p-18">
+                     <img src="cats/cat9.jpg" alt="">
+                     <h3>LILY</h3>
+   
+                  </div>
+
+             
+                </div>
+             
+             </div>
+             
+             <div class="pets-preview">
+             
+                <div class="preview" data-target="p-1">
+                   <i class="fas fa-times"></i>
+                   <img src="dogs/dogo1.webp" alt="">
+                   <h3>MAX</h3>
+                   
+                   <div class="buttons">
+                      <a href="#" class="adoopt">adopt now</a>
+                   </div>
+                </div>
+             
+                <div class="preview" data-target="p-2">
+                   <i class="fas fa-times"></i>
+                   <img src="dogs/dogo2.jpeg" alt="">
+                   <h3>ROCKY</h3>
+                   
+                   <div class="buttons">
+                      <a href="#" class="adoopt">adopt now</a>
+                   </div>
+                </div>
+             
+                <div class="preview" data-target="p-3">
+                   <i class="fas fa-times"></i>
+                   <img src="dogs/dogo8.webp" alt="">
+                   <h3>BELLA</h3>
+                   
+                   <div class="buttons">
+                      <a href="#" class="adoopt">adopt now</a>
+                   </div>
+                </div>
+             
+                <div class="preview" data-target="p-4">
+                   <i class="fas fa-times"></i>
+                   <img src="cats/cat1.jpeg" alt="">
+                   <h3>OLIVER</h3>
+                   
+                   <div class="buttons">
+                      <a href="#" class="adoopt">adopt now</a>
+                   </div>
+                </div>
+             
+                <div class="preview" data-target="p-5">
+                   <i class="fas fa-times"></i>
+                   <img src="cats/cat2.jpg" alt="">
+                   <h3>SIMBA</h3>
+                   
+                   <div class="buttons">
+                      <a href="#" class="adoopt">adopt now</a>
+                   </div>
+                </div>
+             
+                <div class="preview" data-target="p-6">
+                   <i class="fas fa-times"></i>
+                   <img src="cats/cat3.jpeg" alt="">
+                   <h3>WHISKERS</h3>
+                   
+                   <div class="buttons">
+                      <a href="#" class="adoopt">adopt now</a>
+                   </div>
+                </div>
+
+                <div class="preview" data-target="p-7">
+                  <i class="fas fa-times"></i>
+                  <img src="dogs/dogo4.webp" alt="">
+                  <h3>LUNA</h3>
+                  
+                  <div class="buttons">
+                     <a href="#" class="adoopt">adopt now</a>
+                  </div>
+               </div>
+
+               <div class="preview" data-target="p-8">
+                  <i class="fas fa-times"></i>
+                  <img src="dogs/dogo6.jpg" alt="">
+                  <h3>DUKE</h3>
+                  
+                  <div class="buttons">
+                     <a href="#" class="adoopt">adopt now</a>
+                  </div>
+               </div>
+
+               <div class="preview" data-target="p-9">
+                  <i class="fas fa-times"></i>
+                  <img src="dogs/dogo5.jpg" alt="">
+                  <h3>DAISY</h3>
+                  
+                  <div class="buttons">
+                     <a href="#" class="adoopt">adopt now</a>
+                  </div>
+               </div>
+
+               <div class="preview" data-target="p-10">
+                  <i class="fas fa-times"></i>
+                  <img src="cats/cat4.jpg" alt="">
+                  <h3>LEO</h3>
+                  
+                  <div class="buttons">
+                     <a href="#" class="adoopt">adopt now</a>
+                  </div>
+               </div>
+
+               <div class="preview" data-target="p-11">
+                  <i class="fas fa-times"></i>
+                  <img src="cats/cat5.png" alt="">
+                  <h3>OSCAR</h3>
+                  
+                  <div class="buttons">
+                     <a href="#" class="adoopt">adopt now</a>
+                  </div>
+               </div>
+               
+               <div class="preview" data-target="p-12">
+                  <i class="fas fa-times"></i>
+                  <img src="cats/cat6.jpg" alt="">
+                  <h3>CHLOE</h3>
+                 
+                  <div class="buttons">
+                     <a href="#" class="adoopt">adopt now</a>
+                  </div>
+               </div>
+
+               <div class="preview" data-target="p-13">
+                  <i class="fas fa-times"></i>
+                  <img src="dogs/dogo10.jpeg" alt="">
+                  <h3>LUCY</h3>
+                  
+                  <div class="buttons">
+                     <a href="#" class="adoopt">adopt now</a>
+                  </div>
+               </div>
+               
+               <div class="preview" data-target="p-14">
+                  <i class="fas fa-times"></i>
+                  <img src="dogs/dogo9.jpg" alt="">
+                  <h3>BAILEY</h3>
+                  
+                  <div class="buttons">
+                     <a href="#" class="adoopt">adopt now</a>
+                  </div>
+               </div>
+               
+               <div class="preview" data-target="p-15">
+                  <i class="fas fa-times"></i>
+                  <img src="dogs/dogo7.jpeg" alt="">
+                  <h3>SADIE</h3>
+                  
+                  <div class="buttons">
+                     <a href="#" class="adoopt">adopt now</a>
+                  </div>
+               </div>
+               
+               <div class="preview" data-target="p-16">
+                  <i class="fas fa-times"></i>
+                  <img src="cats/cat7.jpg" alt="">
+                  <h3>MILO</h3>
+                  
+                  <div class="buttons">
+                     <a href="#" class="adoopt">adopt now</a>
+                  </div>
+               </div>
+               
+               <div class="preview" data-target="p-17">
+                  <i class="fas fa-times"></i>
+                  <img src="cats/cat8.jpg" alt="">
+                  <h3>SOPHIE</h3>
+                  
+                  <div class="buttons">
+                     <a href="#" class="adoopt">adopt now</a>
+                  </div>
+               </div>
+               
+               <div class="preview" data-target="p-18">
+                  <i class="fas fa-times"></i>
+                  <img src="cats/cat9.jpg" alt="">
+                  <h3>LILY</h3>
+                  <div class="buttons">
+                     <a href="#" class="adoopt">adopt now</a>
+                  </div>
+               </div>
+             
+             </div>
+    </section>
+
+
+
+
+
+
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>quick links</h3>
+            <a href="Weadopt.html"> <i class="fas fa-arrow-right"></i>Home</a>
+            <a href="adopt.html"> <i class="fas fa-arrow-right"></i>Adopt</a>
+            <a href="contact.html"> <i class="fas fa-arrow-right"></i>Contact</a>
+            <a href="login.html"> <i class="fas fa-arrow-right"></i>Log in</a>
+            </div>
+    
+    
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+                <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+                <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+            </div>
+    
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>subscribe for latest update</p>
+                <form action="">
+                <input type="email" placeholder="enter your email address">
+                <input type="submit" value="subscribe" class="btn">
+                </form>
+            </div>
+        </div>
+        
+    </section>
+    
+
+<section class="credit">
+        <a href="#" class="logo"><i class="fas fa-infinity"></i>We.Adopt</a>
+        <a>&#169; All rights reserved.</a>
+</section>
+    
+
+
+
+<script src="main.js" defer data-deferred="1"></script>
+</body>
+</html>
